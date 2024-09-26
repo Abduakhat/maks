@@ -1,5 +1,5 @@
 function scrapeGeniusByContent() {
-  const SPREADSHEET_URL = 'https://docs.google.com/spreadsheets/d/your_spreadsheet_id/edit'; // Замените на вашу ссылку
+  const SPREADSHEET_URL = 'https://docs.google.com/spreadsheets/d/16eJr3D5F-cYcnzkyHXT62bxBfPu8mQbUQKVLmnFppjQ/edit'; // Замените на вашу ссылку
   const sheet = SpreadsheetApp.openByUrl(SPREADSHEET_URL);
   const keywordsSheet = sheet.getSheetByName('Keywords');
   const resultsSheet = sheet.getSheetByName('Results');
